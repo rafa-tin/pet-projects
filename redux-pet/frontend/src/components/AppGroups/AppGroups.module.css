@@ -1,0 +1,21 @@
+@media screen and (max-width: 580px) {
+  .asideGroups {
+    display: none;
+  }
+  .asideGroups.active {
+    display: flex;
+    width: 100vw;
+    z-index: 1;
+  }
+  .groupsBtn {
+    display: flex;
+  }
+  .groupsBtn.active {
+    display: none;
+  }
+}
+@media screen and (min-width: 580px) {
+  .groupsBtn {
+    display: none;
+  }
+}

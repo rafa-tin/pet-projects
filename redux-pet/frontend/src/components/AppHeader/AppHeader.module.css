@@ -1,0 +1,10 @@
+.headerContainer{
+    margin: 0 40px;
+}
+.logOut{
+    padding: 10px 20px;
+
+}
+.logOut:hover{
+    box-shadow: red 0 0 8px;
+}
