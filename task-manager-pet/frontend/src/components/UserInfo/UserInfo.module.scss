@@ -1,0 +1,41 @@
+.userInfo {
+  background-color: var(--primary-dark);
+  padding: 15px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .nameText{
+    display: grid;
+    gap: 10px;
+    color: white;
+    h1{
+      font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+  }
+  .phoneText {
+    display: grid;
+    justify-content: end;
+    color: white;
+    h3{
+      font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+  }
+  p{
+    color: #ffffff99;
+  }
+  span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+ .phoneText {
+    display: none;
+    opacity: 0;
+ }
+}

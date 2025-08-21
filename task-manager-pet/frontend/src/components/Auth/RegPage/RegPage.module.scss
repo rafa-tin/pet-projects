@@ -1,0 +1,36 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(#7d6363, #428b42);
+  form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(255 255 255 / 55%);
+    border-radius: 10px;
+    input {
+      margin-bottom: 10px;
+    }
+    .logo {
+      justify-content: center;
+      display: flex;
+      gap: 10px;
+    }
+    .form-group {
+      justify-content: center;
+    }
+    .formData {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.tabSection {
+  margin: 20px 40px 8px;
+  display: flex;
+  gap: 10px;
+  .button {
+    color: black;
+    font-size: 16px;
+  }
+  .active {
+    color: rgb(1, 36, 231);
+    font-weight: bold;
+  }
+}
+.hr {
+  margin: 0 40px;
+  border-color: rgba(197, 197, 197, 0.24);
+}

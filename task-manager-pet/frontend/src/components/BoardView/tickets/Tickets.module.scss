@@ -1,0 +1,32 @@
+.ticket {
+  display: flex;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  align-items: flex-start;
+  gap: 5px;
+    transition: background-color 0.3s ease;
+  &:hover{
+    background-color: #9b59b6;
+    cursor: pointer;
+  }
+  .ticketName {
+  }
+  .ticketDesc {
+    height: 50px;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // максимум 3 строки
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+  .ticketDue {
+    margin-left: auto;
+  }
+}

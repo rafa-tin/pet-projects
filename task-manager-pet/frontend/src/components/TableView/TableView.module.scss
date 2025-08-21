@@ -1,0 +1,58 @@
+.tableView {
+  margin: 20px;
+}
+
+.table {
+  width: auto;
+  border-collapse: collapse;
+  margin: 20px 40px;
+  color: black;
+  overflow: auto;
+  table{
+    width: 100%;
+    min-width: 800px;
+  }
+
+  .tableHeader{
+    tr{
+      gap: none;
+    }
+    gap: 0;
+    background-color: rgba(128, 128, 128, 0.664);
+  }
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.addButton {
+  color: var(--primary-blue);
+  margin-top: 20px;
+}
+
+.low {
+  background: #D3F9D8;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.medium {
+  background: #FFF3CD;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.high {
+  background: #F8D7DA;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.status {
+  background: #EEE;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
